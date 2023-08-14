@@ -518,7 +518,7 @@ ggplot( df, aes( x = X, weight = value, fill = Responder))+
   annotate("text",x="cluster1",y=19.625,label="39.25%")+
   annotate("text",x="cluster1",y=69.625,label="60.75%")+
   annotate("text",x="cluster2",y=15,label="30%")+
-  annotate("text",x="cluster2",y=65,label="65%")+
+  annotate("text",x="cluster2",y=65,label="70%")+
   theme(panel.grid = element_blank())+theme_bw()+
   scale_fill_manual( values = c("#51C4D3","#EC7696"))
 ggplot( df, aes( x = X, weight = value, fill = Tumor_Type))+
